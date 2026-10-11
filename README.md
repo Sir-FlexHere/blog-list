@@ -1,5 +1,7 @@
 # Blog List
 
+Repository: [Sir-FlexHere/blog-list](https://github.com/Sir-FlexHere/blog-list) · [Actual GitHub Actions runs](https://github.com/Sir-FlexHere/blog-list/actions/workflows/playwright.yml)
+
 Full Stack Open Next.js application, continued in the existing repository. Next.js 16.4, React 19, TypeScript, Tailwind 4, PostgreSQL, Drizzle, and Auth.js credentials/JWT sessions.
 
 ## Implemented behavior
@@ -112,7 +114,7 @@ The esbuild development dependency vulnerability was fixed with a scoped overrid
 | 18–19 | Personal profile, API tokens, authenticated profile endpoint implemented. |
 | 20–21 | Automatic reading-list entries, uniqueness, unread/read grouping and persisted status implemented. |
 | 22–23 | MDX homepage and production-protected testing endpoints implemented. |
-| 24 | Official tests integrated; actual GitHub Actions run pending authenticated remote/secrets. |
+| 24 | Unchanged official tests integrated and executed by GitHub Actions against isolated PostgreSQL; consult the linked workflow for the actual result. |
 | 25 | Repository URL submission is a user action and remains pending. |
 
-Final local acceptance: 28 official tests plus 6 additional tests passed, 0 failed and 0 skipped; TypeScript, ESLint, the normal Turbopack production build, both database migrations, and production testing-endpoint restrictions passed. Actual remote CI, Vercel/Neon deployment, and user course submission remain pending. Consult the final verification report for exact commands and evidence.
+Final local acceptance: 28 official tests plus 6 additional tests passed, 0 failed and 0 skipped; TypeScript, ESLint, the normal Turbopack production build, both database migrations, and production testing-endpoint restrictions passed. GitHub Actions runs against each pushed revision and reports its actual result at the link above. Vercel/Neon deployment and user course submission remain pending. Consult the final verification report for exact commands and evidence.
